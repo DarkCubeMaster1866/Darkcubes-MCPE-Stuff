@@ -192,3 +192,16 @@ Player.addItemInventory(174,1);
 Player.addItemInventory(161,64);
 }
 }
+
+//Redstone Jet Pack
+ModPE.setItem(462,"experience_bottle",0,"Redstone Jet Pack");
+
+function modTick()
+{
+  if(Player.getCarriedItem()==462)
+  {
+    noFall = 1;
+    setVelY(getPlayerEnt(),+0.2);
+    Player.setHealth(30);
+    }
+    }
