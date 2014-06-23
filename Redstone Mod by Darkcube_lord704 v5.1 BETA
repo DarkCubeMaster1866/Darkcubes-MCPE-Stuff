@@ -122,7 +122,7 @@ ModPE.setItem(172,"record_wait",0,"Redstone Ingot");
 ModPE.setItem(199,"record_mall",0,"Redstone Shovel");
 ModPE.setItem(174,"record_mellohi",0,"Redstone Hoe");
  
-ModPE.overrideTexture("images/items-opaque.png", "http://i.imgur.com/UyfQSm5.png");
+ModPE.overrideTexture("images/items-opaque.png", "http://i.imgur.com/t3sO9uY.png");
  
 ModPE.overrideTexture("images/mob/creeper_redstone.png", "http://i.imgur.com/QC5zYiZ.png");
  
