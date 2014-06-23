@@ -205,3 +205,9 @@ function modTick()
     Player.setHealth(30);
     }
     }
+
+//Craftable Item Description
+
+/*What this Mod dose 
+It adds functional Redstone blocks and items from Minecraft PC
+To Minecraft - Pocket Edition it has Redstone Dust Redstone Torches Reapeters And Many More epic Redstone things! :D */
