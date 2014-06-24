@@ -219,7 +219,14 @@ function modTick()
 //Redstone Jet Pack item function and texture by Kingbudderjr
 
 //Craftable Item Description
+ModPE.langEdit("desc.redstone dust","Redstone Dust is used as wire that can be powered by Redstone Blocks,Redstone Torches and Levers");
+
+ModPE.langEdit("desc.redstone jet pack","used to fly and good for escaping Hostile Mobs");
+
+ModPE.langEdit("desc.redstone compartor","Bassicly simular  a Redstone Repeater");
 
 /*What this Mod dose 
 It adds functional Redstone blocks and items from Minecraft PC
 To Minecraft - Pocket Edition it has Redstone Dust Redstone Torches Reapeters And Many More epic Redstone things! :D */
+
+
