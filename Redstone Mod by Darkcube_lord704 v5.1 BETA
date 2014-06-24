@@ -124,6 +124,8 @@ ModPE.setItem(174,"record_mellohi",0,"Redstone Hoe");
  
 ModPE.overrideTexture("images/items-opaque.png", "http://i.imgur.com/t3sO9uY.png");
  
+ModPE.overrideTexture("images/armour/chain_1.png", "http://i.imgur.com/ikR9jyy.png");
+
 ModPE.overrideTexture("images/mob/creeper_redstone.png", "http://i.imgur.com/QC5zYiZ.png");
  
 function useItem(x, y, z, item, block, side)
