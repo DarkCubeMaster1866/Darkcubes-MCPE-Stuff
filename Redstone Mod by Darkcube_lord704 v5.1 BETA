@@ -48,7 +48,7 @@ Block.defineBlock(200,"Powered Rail (off)",["rail_golden",0],true,5,0); Block.se
 Block.setShape(200,0,0,0,1,1/16,1); 
 Block.setRenderLayer(200,2);
 ModPE.setItem(208,"comparator",0,"Redstone Comparator");ModPE.setItem(205,"fireworks",0,"Fire Work");
-Block.defineBlock(116,"Redstone Repeater",["repeater_off",0],true,5,0);
+Block.defineBlock(93,"Redstone Repeater",["repeater_off",0],true,5,0);
 //Repeaters Rails and Comparators by STARTHECODER
  
 ModPE.setItem(161,"ruby",0,"Spawn Redstone Creeper");
@@ -102,19 +102,19 @@ Item.addFurnaceRecipe(73,331,5,0);
 Item.addFurnaceRecipe(331,172,1,0);
  
  
-Block.defineBlock(127,"Piston",[["piston_bottom",0],["piston_top_normal",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0]],1,0,0);
+Block.defineBlock(33,"Piston",[["piston_bottom",0],["piston_top_normal",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0]],1,0,0);
  
  
  
-Block.defineBlock (121,"Sticky Piston",[["piston_bottom",0],["piston_top_sticky",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0]],1,0,0);
+Block.defineBlock (29,"Sticky Piston",[["piston_bottom",0],["piston_top_sticky",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0],["piston_side",0]],1,0,0);
  
-Block.defineBlock(175,"Detector Rail (on)",["rail_detector_powered",0],true,5,0); Block.setDestroyTime(175,0.2); Block.setShape(175,0,0,0,1,1/16,1); 
+Block.defineBlock(28,"Detector Rail (on)",["rail_detector_powered",0],true,5,0); Block.setDestroyTime(175,0.2); Block.setShape(175,0,0,0,1,1/16,1); 
 Block.setRenderLayer(175,2); 
  
-ModPE.setItem(165,"record_11",0,"Redstone Torch");
-ModPE.setItem(166,"record_far",0,"Lever");
-ModPE.setItem(167,"record_stal",0,"Powered Rail (off)");
-ModPE.setItem(168,"record_chirp",0,"Detector Rail");
+ModPE.setItem(199,"record_11",0,"Redstone Torch");
+ModPE.setItem(200,"record_far",0,"Lever");
+ModPE.setItem(203,"record_stal",0,"Powered Rail (off)");
+ModPE.setItem(201,"record_chirp",0,"Detector Rail");
 ModPE.setItem(169,"record_cat",0,"Redstone Sword");
 ModPE.setItem(190,"record_strad",0,"Redstone Pickaxe");
 ModPE.setItem(178,"record_blocks",0,"Redstone Axe");
@@ -167,8 +167,9 @@ print("Mod By Darkcube")
 Block.setLightLevel(23,12);
 Block.setLightLevel(76,12);
  
-Block.defineBlock(198,"Golden Presure Plate",[["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0]],50,!1,13),Block.setDestroyTime(198,.1),Block.setShape(198,0,0,0,1,1/16,1),Block.setRenderLayer(198,2); 
- 
+Block.defineBlock(147,"Weighted Pressure Plate (light)",[["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0],["gold_block",0]],50,!1,13),Block.setDestroyTime(147,.1),Block.setShape(147,0,0,0,1,1/16,1),Block.setRenderLayer(147,2);
+
+Block.defineBlock(148,"Weighted Pressure Plate (heavy)",[["iron_block",0],["iron_block",0],["iron_block",0],["iron_block",0],["iron_block",0],["iron_block",0]],50,!1,13),Block.setDestroyTime(148,.1),Block.setShape(148,0,0,0,1,1/16,1),Block.setRenderLayer(148,2);
  
 function procCmd(c)
 {
