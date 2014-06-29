@@ -226,13 +226,7 @@ ModPE.langEdit("desc.redstone jet pack","used to fly and good for escaping Hosti
 
 ModPE.langEdit("desc.redstone compartor","Bassicly simular  a Redstone Repeater");
 
-//Blocks in Creative
-var sd=1
-function newLevel(){if(sd==1)
-{sd=2
-Player.addItemCreativeInv(152,1,0);for(var i=256;i<320;i++)
-{if(i!=267||i!=295||i!=294||i!=259||i!=261)
-{Player.addItemCreativeInv(i,1,0);}}}}
+
 
 /*What this Mod dose 
 It adds functional Redstone blocks and items from Minecraft PC
